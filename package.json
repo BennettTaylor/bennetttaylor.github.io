@@ -1,23 +1,33 @@
 {
-  "name": "bennetttaylor.github.io",
-  "version": "0.1.0",
-  "private": true,
+  "name": "bennett-taylor-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Bennett Taylor, ECE M.S. student at Boston University.",
+  "main": "src/app/page.js",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint ."
   },
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "tailwindcss",
+    "react"
+  ],
+  "author": "Bennett Taylor",
+  "license": "MIT",
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.5"
+    "autoprefixer": "^10.4.21",
+    "next": "latest",
+    "postcss": "^8.4.5",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "^4.1.14"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.5",
-    "@eslint/eslintrc": "^3"
+    "@tailwindcss/postcss": "^4.1.14",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^12.0.7"
   }
 }
