@@ -24,7 +24,7 @@ export default function Art() {
             {section.images.map((src, idx) => (
                 <div
                 key={src}
-                className="bg-white shadow-xl rounded-lg"
+                className="bg-white shadow-xl rounded-lg cursor-pointer transform hover:scale-105 transition-transform duration-300 pop-in-div"
                 style={{ border: "8px solid #FFFFFF" }}
                 >
                 <img

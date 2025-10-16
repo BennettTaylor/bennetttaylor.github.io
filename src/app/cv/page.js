@@ -11,7 +11,7 @@ const CV = () => {
     // Applying global text color and font class to the main container
     return (
         // The main container provides padding and centers the CV content.
-        <div className="max-w-4xl mx-auto p-6 lg:p-10 shadow-2xl bg-white rounded-xl my-8 text-black chicle-regular">
+        <div className="max-w-4xl mx-auto p-6 lg:p-10 shadow-2xl bg-white rounded-xl my-8 text-black chicle-regular pop-in-div">
             {/* MAIN CONTENT SECTIONS */}
             <main className=" space-y-8">
 
@@ -24,11 +24,11 @@ const CV = () => {
                         {/* Master's Degree */}
                         <div>
                             <div className="flex justify-between items-start">
-                                <h3 className="font-bold text-xl">Boston University, College of Engineering</h3>
-                                <span className="text-sm flex-shrink-0">Boston, MA | Dec 2026</span>
+                                <h3 className="font-bold text-lg">Boston University, College of Engineering</h3>
+                                <span className="text-sm flex-shrink-0">May 2026</span>
                             </div>
                             {/* Changed text-green to inherit black */}
-                            <p className="italic text-lg">M.S. in Electrical and Computer Engineering</p>
+                            <p className="italic text-md">M.S. in Electrical and Computer Engineering</p>
                             <p className="text-sm">GPA: 3.74/4.00, College of Engineering Graduate Scholarship</p>
                             <p className="text-sm mt-1">Relevant Coursework: Embedded Systems, Cybersecurity, High Performance Programming, Cloud Computing</p>
                         </div>
@@ -37,7 +37,7 @@ const CV = () => {
                         <div>
                             <div className="flex justify-between items-start">
                                 <h3 className="font-bold text-lg">Boston University, College of Engineering</h3>
-                                <span className="text-sm flex-shrink-0">Sept 2023 – May 2025</span>
+                                <span className="text-sm flex-shrink-0">May 2025</span>
                             </div>
                             {/* Changed text-green to inherit black */}
                             <p className="italic text-md">B.S. in Computer Engineering</p>
@@ -55,15 +55,28 @@ const CV = () => {
                     {/* BU TA Role - Removed borders/padding/shadows */}
                     <div className="mb-6">
                         <div className="flex justify-between items-start">
-                            <h3 className="font-bold text-lg">Teaching Assistant</h3>
-                            <span className="text-sm flex-shrink-0">Sept 2023 – May 2025</span>
+                            <h3 className="font-bold text-lg">Machine Learning Teaching Assistant</h3>
+                            <span className="text-sm flex-shrink-0">Jan 2025 – May 2025</span>
                         </div>
                         {/* Changed text-green to inherit black */}
                         <p className="text-md">Boston University Dept. of Electrical and Computer Engineering | Boston, MA</p>
-                        <p className="text-sm mt-1 mb-2">Courses: Computer Organization, Logic Design, Electric Circuits, Machine Learning</p>
                         <ul className="list-disc ml-5 space-y-1 text-sm">
-                            <li>Facilitated learning in four undergraduate engineering courses (80+ students) by aiding students in completing coursework including lab work, homework, and exam preparation.</li>
-                            <li>Assisted students during lab sessions in modeling chip components and architecture with Verilog on FPGAs; labs ranged from creating simple muxes to multistage CPU pipelines with forwarding, hazard detection, etc.</li>
+                            <li>Performed grading for homework assignments on a number of machine learning topics including PCA, Neural Networks, Clustering, etc.</li>
+                            <li>Helped students understand homework and exam topics through office hours and Piazza</li>
+                        </ul>
+                    </div>
+
+                    {/* BU TA Role - Removed borders/padding/shadows */}
+                    <div className="mb-6">
+                        <div className="flex justify-between items-start">
+                            <h3 className="font-bold text-lg">Computer Organization Teaching Assistant</h3>
+                            <span className="text-sm flex-shrink-0">Sept 2024 – Dec 2024</span>
+                        </div>
+                        {/* Changed text-green to inherit black */}
+                        <p className="text-md">Boston University Dept. of Electrical and Computer Engineering | Boston, MA</p>
+                        <ul className="list-disc ml-5 space-y-1 text-sm">
+                            <li>Aided students in completing coursework including lab work, homework, and exam preparation.</li>
+                            <li>Assisted students during computer architecture labs utilizing MIPS assembly, Verilog, and Vivado; labs ranged from writing MIPS assembly to building multistage CPU pipelines with forwarding, hazard detection, etc.</li>
                             <li>Developed grading criteria and provided detailed feedback on homework, labs, and exams in collaboration with professors.</li>
                         </ul>
                     </div>
@@ -81,6 +94,36 @@ const CV = () => {
                             <li>Integrated updated software libraries into the product codebase, resulting in increased security and stability.</li>
                             <li>Wrote BASH scripts to scan a 2M+ line codebase to detect unused files and functions, leading to the removal of several thousand lines of nonfunctional code.</li>
                             <li>Followed standard software development practices, including version control, agile methodologies, debugging, testing, and compliance with code style guidelines.</li>
+                        </ul>
+                    </div>
+
+                    {/* BU TA Role - Removed borders/padding/shadows */}
+                    <div className="mb-6">
+                        <div className="flex justify-between items-start">
+                            <h3 className="font-bold text-lg">Logic Design Teaching Assistant</h3>
+                            <span className="text-sm flex-shrink-0">Jan 2024 – May 2024</span>
+                        </div>
+                        {/* Changed text-green to inherit black */}
+                        <p className="text-md">Boston University Dept. of Electrical and Computer Engineering | Boston, MA</p>
+                        <ul className="list-disc ml-5 space-y-1 text-sm">
+                            <li>Aided students in completing coursework including lab work, homework, and exam preparation.</li>
+                            <li>Assisted students during lab sessions in modeling chip components with Verilog on FPGAs; labs ranged from creating simple muxes to creating custom games for an Artix A7 FPGA.</li>
+                            <li>Developed grading criteria and provided detailed feedback on homework, labs, and exams in collaboration with professors.</li>
+                        </ul>
+                    </div>
+
+                    {/* BU TA Role - Removed borders/padding/shadows */}
+                    <div className="mb-6">
+                        <div className="flex justify-between items-start">
+                            <h3 className="font-bold text-lg">Electronic Circuits Lab Assistant</h3>
+                            <span className="text-sm flex-shrink-0">Sept 2023 – Dec 2023</span>
+                        </div>
+                        {/* Changed text-green to inherit black */}
+                        <p className="text-md">Boston University Dept. of Electrical and Computer Engineering | Boston, MA</p>
+                        <ul className="list-disc ml-5 space-y-1 text-sm">
+                            <li>Performed grading for lab assignments.</li>
+                            <li>Assisted students during lab sessions ranging from basic circuit design to heartbeat signal detection circuits.</li>
+                            <li>Helped troubleshoot and debug waveform generators, oscilloscopes, and other lab equipment.</li>
                         </ul>
                     </div>
 
@@ -149,8 +192,8 @@ const CV = () => {
                     <h2 className="text-lg font-extrabold border-b pb-1 mb-4">SKILLS & LEADERSHIP</h2>
                     
                     <div className="space-y-2 text-sm">
-                        <p><strong className="font-bold">Programming Languages:</strong> C, C++, Make, CMake, Python, BASH, SystemVerilog, CUDA, SQL</p>
-                        <p><strong className="font-bold">Software/Tools:</strong> Linux, Git, Valgrind, GDB, Jira, Wireshark, Visual Studio, Docker, GCP, Github Actions, Xilinx Vivado</p>
+                        <p><strong className="font-bold">Programming Languages:</strong> C, C++, Make, CMake, Python, BASH, TCL, Verilog, CUDA, Terraform, SQL, MATLAB, Javascript, HTML, CSS, Swift, Arduino</p>
+                        <p><strong className="font-bold">Software/Tools:</strong> Linux, Git, Valgrind, GDB, Jira, Wireshark, PyTorch, Visual Studio, Docker, GCP, Github Actions, Xilinx Vivado, Clearcase, Rhapsody UML, Next.js, React, Tailwindcss</p>
                         <p><strong className="font-bold">Leadership:</strong> Running Club Elected Board (2023-2024), Eagle Scout (Troop 3 Groton, 2021)</p>
                     </div>
                 </section>

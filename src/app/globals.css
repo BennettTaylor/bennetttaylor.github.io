@@ -14,6 +14,20 @@
   --color-olive: #BFB48F;
 }
 
+/* 1. Pop into existence animation */
+@keyframes popIn {
+  0% {
+    transform: scale(0.5); /* Start small */
+  }
+  100% {
+    transform: scale(1); /* End at normal size */
+  }
+}
+
+.pop-in-div {
+  animation: popIn 0.4s ease-out forwards;
+}
+
 .chicle-regular {
   font-family: "Chicle", serif;
   font-weight: 400;
@@ -31,7 +45,7 @@
   }
 
   a {
-    @apply text-black hover:text-lightgreen;
+    @apply text-black hover:text-lightgreen  transition-colors duration-300;
   }
 
   footer {
