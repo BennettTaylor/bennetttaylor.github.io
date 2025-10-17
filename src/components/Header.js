@@ -4,28 +4,14 @@ import Image from 'next/image';
 export default function Header() {
   return (
     <header className="bg-white p-6 pt-6 z-50 border-b-6 border-lightgreen">
-      <div className="flex justify-between items-center">
-          <div className="flex justify-center items-center gap-2">
-            <Image
-                      src="/favicon.jpg"
-                      alt="Favicon"
-                      width={50}
-                      height={50}
-                    />
-          <Link
-            href="/"
-            className="tracking-wider chicle-regular text-4xl focus:outline-none hover:text-black"
-            style={{ whiteSpace: "pre" }}
-          >
-            BENNETT TAYLOR
-          </Link>
-          <Image
-                      src="/favicon.jpg"
-                      alt="Favicon"
-                      width={50}
-                      height={50}
-                    />
-          </div>
+      <div className="flex justify-between items-center px-6">
+        <Link
+          href="/"
+          className="tracking-wider chicle-regular text-4xl focus:outline-none hover:text-black"
+          style={{ whiteSpace: "pre" }}
+        >
+          BENNETT TAYLOR
+        </Link>
         <nav>
           <ul className="flex items-center space-x-4">
             {[
