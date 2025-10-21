@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { useState, useEffect } from 'react';
 
-// --- ICON DEFINITIONS (Add these or use an icon library like Heroicons) ---
 const MenuIcon = (props) => (
   <svg
     className="w-8 h-8"
@@ -29,12 +28,10 @@ const CloseIcon = (props) => (
   </svg>
 );
 
-// --- MAIN COMPONENT ---
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
 
-  // useEffect for the page-load drop-down animation
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoaded(true);
@@ -56,7 +53,6 @@ export default function Header() {
   );
 
   return (
-    // Outer container handles sticky and drop-down animation
     <div 
       className={`
         bg-white z-50 border-b-6 border-lightgreen sticky 
@@ -64,11 +60,8 @@ export default function Header() {
         ${isLoaded ? 'top-0' : '-top-24'} 
       `}
     >
-      {/* --- Main Header Bar (Always visible) --- */}
       <header className="p-4 md:p-6 pt-4 md:pt-6">
         <div className="flex justify-between items-center px-2 md:px-6">
-          
-          {/* Title/Logo */}
           <Link
             href="/"
             className="tracking-wider chicle-regular text-3xl md:text-4xl focus:outline-none hover:text-black"
@@ -76,8 +69,6 @@ export default function Header() {
           >
             BENNETT TAYLOR
           </Link>
-
-          {/* Desktop Navigation (Hidden on mobile) */}
           <nav className="hidden md:block">
             <ul className="flex items-center space-x-4">
               {navItems.map(({ href, label }) => (
@@ -90,7 +81,6 @@ export default function Header() {
                   </Link>
                 </li>
               ))}
-              {/* GitHub Icon */}
               <li>
                 <a
                   href="https://github.com/BennettTaylor"
@@ -104,8 +94,6 @@ export default function Header() {
               </li>
             </ul>
           </nav>
-
-          {/* Mobile Menu Button (Hidden on desktop) */}
           <button
             className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -115,8 +103,6 @@ export default function Header() {
           </button>
         </div>
       </header>
-      
-      {/* --- Mobile Menu Content (Pushes content down from header) --- */}
       <nav
         className={`md:hidden w-full bg-white shadow-lg transition-[max-height] duration-300 ease-in-out ${
           isMenuOpen ? 'max-h-screen' : 'max-h-0'
@@ -128,7 +114,7 @@ export default function Header() {
               <Link
                 href={href}
                 className="chicle-regular block w-full py-3 text-xl font-bold hover:bg-gray-50 transition-colors"
-                onClick={() => setIsMenuOpen(false)} // Close menu on click
+                onClick={() => setIsMenuOpen(false)}
               >
                 {label}
               </Link>
@@ -141,7 +127,7 @@ export default function Header() {
               rel="noopener noreferrer"
               aria-label="GitHub Profile"
               className="text-black hover:text-lightgreen transition-colors duration-300"
-              onClick={() => setIsMenuOpen(false)} // Close menu on click
+              onClick={() => setIsMenuOpen(false)}
             >
               {githubSvg}
             </a>

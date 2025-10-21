@@ -7,7 +7,6 @@ const Projects = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      {/* Project Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (
           <div
@@ -47,8 +46,6 @@ const Projects = () => {
           </div>
         ))}
       </div>
-
-      {/* Modal for Expanded Project View */}
       {selectedProject && (
         <div
           className="fixed inset-0 backdrop-blur-md bg-opacity-50 backdrop-blur-md flex items-center justify-center z-50 p-4"

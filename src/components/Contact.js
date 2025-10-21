@@ -23,8 +23,6 @@ const Contact = () => {
             Connect on LinkedIn
           </button>
         </a>
-
-        {/* Replace the form with a button */}
         <a
           href={`mailto:${emailAddress}?subject=Inquiry%20from%20Portfolio%20Website`}
           className="block w-full max-w-md text-center"
