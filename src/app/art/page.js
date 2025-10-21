@@ -19,22 +19,24 @@ export default function Art() {
     <div className="space-y-12">
         {artSections.map(section => (
         <div key={section.key}>
-            <h2 className="text-center chicle-regular text-3xl font-semibold mb-4">{section.title}</h2>
-            <div className="flex items-center justify-center flex-wrap gap-6">
-            {section.images.map((src, idx) => (
-                <div
-                key={src}
-                className="bg-white shadow-xl rounded-lg cursor-pointer transform hover:scale-105 transition-transform duration-300 pop-in-div"
-                style={{ border: "8px solid #FFFFFF" }}
-                >
-                <img
-                    src={src}
-                    alt={`${section.title} ${idx + 1}`}
-                    className="max-w-xs max-h-80 object-contain cursor-pointer"
-                    onClick={() => setModalImg(src)}
-                />
-                </div>
-            ))}
+            <div className="flex flex-col justify-center items-center mb-6">
+              <h2 className="bg-white py-2 px-6 rounded-lg shadow-2xl w-fit text-center tinos-400 text-3xl font-semibold mb-6">{section.title}</h2>
+              <div className="flex items-center justify-center flex-wrap gap-6">
+              {section.images.map((src, idx) => (
+                  <div
+                  key={src}
+                  className="bg-white shadow-xl rounded-lg cursor-pointer transform hover:scale-105 transition-transform duration-300 pop-in-div"
+                  style={{ border: "8px solid #FFFFFF" }}
+                  >
+                  <img
+                      src={src}
+                      alt={`${section.title} ${idx + 1}`}
+                      className="max-w-xs max-h-80 object-contain cursor-pointer"
+                      onClick={() => setModalImg(src)}
+                  />
+                  </div>
+              ))}
+            </div>
             </div>
         </div>
         ))}
@@ -47,7 +49,7 @@ export default function Art() {
         <img
             src={modalImg}
             alt="Full size art"
-            className="max-w-3xl max-h-[90vh] rounded-lg border-8 border-white shadow-2xl"
+            className="max-w-3xl max-h-[90vh] rounded-lg border-8 border-white shadow-2xl max-w-full max-h-full object-contain"
         />
         </div>
     )}

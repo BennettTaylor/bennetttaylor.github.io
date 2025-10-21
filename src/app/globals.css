@@ -1,17 +1,47 @@
 /* Tailwind CSS Directives */
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
 
 @theme {
   --color-black: #252627;
   --color-peach: #FFCAB1;
-  --color-whiter: #EEF0EB;
+  --color-whiter: #FFFCF7;
   --color-lightgreen: #A1C084;
   --color-green: #659157;
   --color-blue: #69A2B0;
   --color-gray: #564E58;
   --color-red: #E05263;
   --color-olive: #BFB48F;
+}
+
+.chicle-regular {
+  font-family: Chicle,serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-slab-400 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playfair-400 {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.tinos-400 {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tinos-bold {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 @keyframes popIn {
@@ -25,12 +55,6 @@
 
 .pop-in-div {
   animation: popIn 0.4s ease-out forwards;
-}
-
-.chicle-regular {
-  font-family: "Chicle", serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 @layer base {

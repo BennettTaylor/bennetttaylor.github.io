@@ -5,7 +5,12 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}', // <-- Ensure this line is present
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'roboto-slab': ['var(--font-roboto-slab)', 'serif'],
+        'chicle': ['var(--font-chicle)', 'serif'],
+      },
+    },
   },
   plugins: [],
 }

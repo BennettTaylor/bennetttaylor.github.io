@@ -16,15 +16,14 @@ const Welcome = () => {
           />
         </div>
         <div className="max-w-xl bg-white min-h-[300px] p-6 shadow-2xl rounded-lg pop-in-div" style={{ border: "8px solid #FFFFFF" }}>
-          <h2 className="chicle-regular text-2xl md:text-3xl font-bold text-center mb-4">Welcome!</h2>
-          <p className="indent-8 chicle-regular text-md md:text-lg">
-            Thanks for visiting my website! The goal of this site is to showcase work
-            that I've done and am doing,
+          <h2 className="tinos-400 text-2xl md:text-3xl font-bold text-center mb-4">Welcome!</h2>
+          <p className="indent-8 tinos-400 text-md md:text-lg">
+            Thanks for visiting my website! The goal of this site is to showcase my work
             while having some fun learning how to build and design a website. LLMs were utilized
             in the making of this site to help expedite the coding process,
-            but all design work was done by me. Before building this website I spent quite
+            but all design work was done by myself. Before building this website I spent quite
             a bit of time learning the basics of HTML, CSS, JavaScript, React, Next.js,
-            and Tailwind CSS so that I could tweak and understand everything that was generated.
+            and Tailwind CSS so I could build what I wanted.
             I hope you enjoy the site!
           </p>
         </div>

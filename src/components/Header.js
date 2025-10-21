@@ -60,11 +60,11 @@ export default function Header() {
         ${isLoaded ? 'top-0' : '-top-24'} 
       `}
     >
-      <header className="p-4 md:p-6 pt-4 md:pt-6">
+      <header className="p-4 md:p-6">
         <div className="flex justify-between items-center px-2 md:px-6">
           <Link
             href="/"
-            className="tracking-wider chicle-regular text-3xl md:text-4xl focus:outline-none hover:text-black"
+            className="tracking-wider playfair-400 text-3xl md:text-4xl focus:outline-none hover:text-black"
             style={{ whiteSpace: "pre" }}
           >
             BENNETT TAYLOR
@@ -75,7 +75,7 @@ export default function Header() {
                 <li key={href}>
                   <Link
                     href={href}
-                    className="chicle-regular pr-4 py-3 text-xl font-bold hover:text-lightgreen transition-colors"
+                    className="playfair-400 pr-5 py-3 text-xl font-bold hover:text-lightgreen transition-colors"
                   >
                     {label}
                   </Link>
@@ -113,7 +113,7 @@ export default function Header() {
             <li key={href} className="w-full text-center border-b last:border-b-0 border-gray-100">
               <Link
                 href={href}
-                className="chicle-regular block w-full py-3 text-xl font-bold hover:bg-gray-50 transition-colors"
+                className="tinos-400 block w-full py-3 text-xl font-bold hover:bg-gray-50 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {label}

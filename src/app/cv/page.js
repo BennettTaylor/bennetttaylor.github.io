@@ -3,7 +3,7 @@ import React from 'react';
 
 const CV = () => {
     return (
-        <div className="max-w-4xl mx-auto p-6 lg:p-10 shadow-2xl bg-white rounded-xl my-8 text-black chicle-regular pop-in-div">
+        <div className="max-w-4xl mx-auto p-6 lg:p-10 shadow-2xl bg-white rounded-xl my-8 text-black tinos-400 pop-in-div">
             <main className=" space-y-8">
                 <section>
                     <h2 className="text-lg font-extrabold border-b pb-1 mb-4">EDUCATION</h2>    
