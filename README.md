@@ -1,72 +1,31 @@
 # Bennett Taylor's Portfolio
+Welcome to the GitHub repository for my portfolio website! The site was built using React, Next.js, PostCSS, and Tailwind CSS. It is currently hosted on GitHub pages as my user site, BennettTaylor.github.io. I chose to forgo using jekyll for GitHub Pages for extra flexibility in frameworks, and to learn more about standard web development.
 
-Welcome to the personal portfolio website of Bennett Taylor, an Electrical and Computer Engineering (ECE) M.S. student at Boston University. This project is built using Next.js, Tailwind CSS, and React.
+# Development
+With the Next.js framework, development is quite easy for this site. All you need to modify this site is to download the required frameworks (using Node.js), fork my repository and run locally using `npm run dev`. To upload to GitHub pages, you can use the deploy.yml GitHub workflow found in my project. This requires you to set up the repository as a GitHub Pages repository and selecting GitHub Actions as the source. More information can be found here: https://docs.github.com/en/pages/quickstart
 
-## Project Structure
+# Features
+## Reactive
+I experimented with reactive web design in this project by incorporating animations and color changes in response to events like loading and user interaction. Clickable sections will expand when hovered over; cards on the screen will "pop" into existance when loaded for the first time; Links will fade to green when hovered over. These elements help the user experience and bring a sense of life to the otherwise static site.
 
-The project is organized as follows:
+## Mobile Friendly
+Using Tailwind CSS, many sections of the website have different layouts and sizing to support mobile web viewing. Everything that works on desktop should also work just fine on mobile.
 
-```
-bennett-taylor-portfolio
-├── src
-│   ├── app
-│   │   ├── page.js          # Main entry point for the application
-│   │   ├── layout.js        # Layout structure wrapping main content
-│   │   └── globals.css      # Global CSS styles including Tailwind imports
-│   ├── components
-│   │   ├── Header.js        # Navigation menu and branding
-│   │   ├── Footer.js        # Copyright and social media links
-│   │   ├── About.js         # Information about Bennett Taylor
-│   │   ├── Projects.js      # List of projects
-│   │   └── Contact.js       # Contact form or information
-│   └── data
-│       └── projects.js      # Project data used in Projects component
-├── public
-│   └── favicon.ico          # Favicon for the website
-├── tailwind.config.js       # Tailwind CSS configuration
-├── postcss.config.js        # PostCSS configuration
-├── package.json             # npm configuration and dependencies
-├── README.md                # Project documentation
-└── next.config.js           # Next.js configuration
-```
+## Lightweight
+Because this website is a relatively small, static website, it performs relatively well without long load times or delays. Images have been reduced in size to support faster loading times.
 
-## Features
+# Site Structure
+## Homepage
+The homepage has all my basic information and background. It starts with a welcome message and photo of my self, followed by a section describing myself. Beneath this is a project section (identical to the project page) for users who chose to keep scrolling on the homepage. Near the bottom is a contact section and footer.
 
-- **Responsive Design**: The website is designed to be fully responsive, ensuring a great user experience on all devices.
-- **Dynamic Components**: Utilizes React components for modularity and reusability.
-- **Tailwind CSS**: Leverages Tailwind CSS for styling, allowing for rapid UI development with utility-first classes.
-- **Project Showcase**: Displays a curated list of projects that Bennett has worked on, with detailed descriptions and links.
+## C.V.
+The C.V. page contains an up-to-date version of my resume with most of my experinces, skills, and professional/educational background. Fairly standard.
 
-## Getting Started
+## Projects
+The project page contains a few cards showcasing some of the projects I am most proud of contributing to. They can be expanded for more information by clicking on them.
 
-To get started with this project, follow these steps:
+## Art
+The art page contains four different sections: Painting, Digital Art, Film Photography, and Digital Photography. Each section has some of my favorite pieces that I have made in each of the mediums.
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/bennett-taylor-portfolio.git
-   ```
-
-2. Navigate to the project directory:
-   ```
-   cd bennett-taylor-portfolio
-   ```
-
-3. Install the dependencies:
-   ```
-   npm install
-   ```
-
-4. Run the development server:
-   ```
-   npm run dev
-   ```
-
-5. Open your browser and navigate to `http://localhost:3000` to view the portfolio.
-
-## Contributing
-
-Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
+# AI Disclaimer
+My expertise is not in web design, so much of the website was built with the help of LLMs like ChatGPT and Google Gemini. I spent quite a bit of time learning HTML, CSS, and JS so I could understand how the website works and what was possible (and easier to achieve with frameworks). In the end I focused on Tailwind CSS as the main framework for styling the site as it was easy to pick up with some knowledge of CSS. A lot of the work done by AI was for helping to manage the React and Next.js aspects of the sight, which I simply didn't have time to learn properly. I'm quite happy with the final result and am glad to be able to take advantage of these tools. 

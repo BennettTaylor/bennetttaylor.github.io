@@ -16,9 +16,9 @@ const Projects = () => {
             onClick={() => setSelectedProject(project)}
           >
             <div className="flex justify-between items-start mb-2">
-              <h2 className="chicle-regular text-2xl font-bold text-left mr-2">{project.title}</h2>
+              <h2 className="chicle-regular text-xl md:text-2xl font-bold text-left mr-2">{project.title}</h2>
               {project.inProgress && (
-                <span className="chicle-regular bg-red text-white text-md font-semibold px-2.5 py-1 rounded-full whitespace-nowrap">
+                <span className="chicle-regular bg-red text-white text-sm md:text-md font-semibold px-2.5 py-1 rounded-full whitespace-nowrap">
                   In Progress
                 </span>
               )}
@@ -38,7 +38,7 @@ const Projects = () => {
               {project.skills.map((skill, skillIndex) => (
                 <span
                   key={skillIndex}
-                  className="chicle-regular bg-lightgreen text-white text-md font-semibold px-2.5 py-1 rounded-full"
+                  className="chicle-regular bg-lightgreen text-white text-sm md:text-md font-semibold px-2.5 py-1 rounded-full"
                 >
                   {skill}
                 </span>

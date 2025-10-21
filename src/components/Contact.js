@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
   const emailAddress = "betaylor83@gmail.com";
   return (
-    <section className="flex flex-col items-center justify-center p-8">
+    <section className="p-4 md:p-10 mx-auto max-w-7xl flex flex-col items-center justify-center">
       <div className="bg-white shadow-2xl rounded-lg m-10 p-10">
         <h2 className="chicle-regular text-3xl text-center font-bold mb-4">Contact Me</h2>
         <p className="chicle-regular mb-6 text-lg text-center">
