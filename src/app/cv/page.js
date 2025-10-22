@@ -33,7 +33,7 @@ const CV = () => {
                     <div className="mb-6">
                         <div className="flex justify-between items-start">
                             <h3 className="font-bold text-lg">Machine Learning Teaching Assistant</h3>
-                            <span className="text-sm flex-shrink-0">Jan 2025 – May 2025</span>
+                            <span className="text-sm flex-shrink-0">Jan – May 2025</span>
                         </div>
                         <p className="text-md">Boston University Dept. of Electrical and Computer Engineering | Boston, MA</p>
                         <ul className="list-disc ml-5 space-y-1 text-sm">
@@ -44,7 +44,7 @@ const CV = () => {
                     <div className="mb-6">
                         <div className="flex justify-between items-start">
                             <h3 className="font-bold text-lg">Computer Organization Teaching Assistant</h3>
-                            <span className="text-sm flex-shrink-0">Sept 2024 – Dec 2024</span>
+                            <span className="text-sm flex-shrink-0">Sept – Dec 2024</span>
                         </div>
                         <p className="text-md">Boston University Dept. of Electrical and Computer Engineering | Boston, MA</p>
                         <ul className="list-disc ml-5 space-y-1 text-sm">
@@ -69,7 +69,7 @@ const CV = () => {
                     <div className="mb-6">
                         <div className="flex justify-between items-start">
                             <h3 className="font-bold text-lg">Logic Design Teaching Assistant</h3>
-                            <span className="text-sm flex-shrink-0">Jan 2024 – May 2024</span>
+                            <span className="text-sm flex-shrink-0">Jan – May 2024</span>
                         </div>
                         <p className="text-md">Boston University Dept. of Electrical and Computer Engineering | Boston, MA</p>
                         <ul className="list-disc ml-5 space-y-1 text-sm">
@@ -81,7 +81,7 @@ const CV = () => {
                     <div className="mb-6">
                         <div className="flex justify-between items-start">
                             <h3 className="font-bold text-lg">Electronic Circuits Lab Assistant</h3>
-                            <span className="text-sm flex-shrink-0">Sept 2023 – Dec 2023</span>
+                            <span className="text-sm flex-shrink-0">Sept – Dec 2023</span>
                         </div>
                         <p className="text-md">Boston University Dept. of Electrical and Computer Engineering | Boston, MA</p>
                         <ul className="list-disc ml-5 space-y-1 text-sm">
@@ -109,7 +109,7 @@ const CV = () => {
                         <div className="">
                             <div className="flex justify-between items-start">
                                 <h3 className="font-bold text-lg">RV32I CPU Implementation on FPGA</h3>
-                                <span className="text-sm flex-shrink-0">Sept 2025–Present</span>
+                                <span className="text-sm flex-shrink-0">Sept 2025 – Present</span>
                             </div>
                             <ul className="list-disc ml-5 space-y-1 text-sm mt-1">
                                 <li>Working in a team of two to implement a functional 32-bit RISC-V core on a Nexys A7 FPGA with AXI and JTAG interfaces for communication and debugging.</li>
@@ -119,7 +119,7 @@ const CV = () => {
                         <div className="">
                             <div className="flex justify-between items-start">
                                 <h3 className="font-bold text-lg">Sparse Matrix Multiplication Optimization in C</h3>
-                                <span className="text-sm flex-shrink-0">Feb 2025 – May 2025</span>
+                                <span className="text-sm flex-shrink-0">Feb – May 2025</span>
                             </div>
                             <ul className="list-disc ml-5 space-y-1 text-sm mt-1">
                                 <li>Investigated low-level sparse matrix multiplication design by implementing custom COO and CRS format matrix structures, randomized generation functions, and both serial & multithreaded multiplication functions.</li>
@@ -129,7 +129,7 @@ const CV = () => {
                         <div className="">
                             <div className="flex justify-between items-start">
                                 <h3 className="font-bold text-lg">Bike Guard Senior Design Project</h3>
-                                <span className="text-sm flex-shrink-0">Aug 2024–May 2025</span>
+                                <span className="text-sm flex-shrink-0">Aug – May 2025</span>
                             </div>
                             <ul className="list-disc ml-5 space-y-1 text-sm mt-1">
                                 <li>Developed and manufactured a bike theft detection device prototype utilizing a Raspberry Pi, IMU, GPS data, cellular connectivity, and embedded camera.</li>
