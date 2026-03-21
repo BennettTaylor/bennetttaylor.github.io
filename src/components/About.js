@@ -8,7 +8,7 @@ return (
                 <h2 className="tinos-400 text-2xl md:text-3xl font-bold text-center mb-6">Who Am I?</h2>
                 <p className="indent-8 tinos-400 text-md md:text-lg font-bold mb-6">
                     As the URL, GitHub repository, and header for this website might suggest, my name is Bennett Taylor!
-                    I am currently pursuing a Master's degree in Electrical and Computer Engineering at Boston University,
+                    I am currently working at Symbotic as a Mobile Bot Software Co-Op and pursuing a Master's degree in Electrical and Computer Engineering at Boston University,
                     where I am deepening my expertise in embedded systems, computer architecture, and hardware-software integration.
                 </p>
                 <p className="indent-8 tinos-400 text-md md:text-lg font-bold mb-6">
@@ -16,9 +16,9 @@ return (
                     Understanding how things work and figuring out how to make them better is at the core of what drives me.
                 </p>
                 <p className="indent-8 tinos-400 text-md md:text-lg font-bold mb-6">
-                    While I complete my degree, I'm seeking job or co-op opportunities in software engineering, embedded systems,
-                    or hardware design. If you have an opportunity that you think I might be a good fit for, please don't hesitate
-                    to reach out via email (betaylor83@gmail.com).
+                    I am currently completing a co-op at Symbotic and will be joining Cisco full-time after graduating
+                    with my M.S. in May. I am always happy to connect with others in software engineering, embedded systems,
+                    and hardware design, so please feel free to reach out via email (betaylor83@gmail.com).
                 </p>
                 <h2 className="tinos-400 text-2xl md:text-3xl font-bold text-center mb-6">My Background</h2>
                 <p className="indent-8 tinos-400 text-md md:text-lg font-bold mb-6">
@@ -34,7 +34,7 @@ return (
                     prompting me to switch majors to learn more about how these devices and computers work "under the hood."
                 </p>
                 <p className="indent-8 tinos-400 text-md md:text-lg font-bold mb-6">
-                    Since then, I've had the opportunity to work on a variety of projects through coursework, personal projects, and an internship.
+                    Since then, I've had the opportunity to work on a variety of projects through coursework, personal projects, and internship/co-op work.
                     More information about those projects can be found below or on the projects page. Through this work, I've developed
                     my skills in C, Linux, BASH, Verilog, and Python. Although I have experience with many other programming languages, frameworks,
                     and tools, these are what I would consider my core strengths. I find myself most interested in the design and interaction between 

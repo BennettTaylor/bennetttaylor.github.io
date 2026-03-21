@@ -14,7 +14,7 @@ const CV = () => {
                                 <span className="text-sm flex-shrink-0">May 2026</span>
                             </div>
                             <p className="italic text-md">M.S. in Electrical and Computer Engineering</p>
-                            <p className="text-sm">GPA: 3.74/4.00, College of Engineering Graduate Scholarship</p>
+                            <p className="text-sm">GPA: 3.81/4.00, College of Engineering Graduate Scholarship</p>
                             <p className="text-sm mt-1">Relevant Coursework: Embedded Systems, Cybersecurity, High Performance Programming, Cloud Computing</p>
                         </div>
                         <div>
@@ -30,6 +30,17 @@ const CV = () => {
                 </section>
                 <section>
                     <h2 className="text-lg font-extrabold border-b pb-1 mb-4">EXPERIENCE</h2>
+                    <div className="mb-6">
+                        <div className="flex justify-between items-start">
+                            <h3 className="font-bold text-lg">Mobile Bot Software Co-Op</h3>
+                            <span className="text-sm flex-shrink-0">Jan 2026 – Present</span>
+                        </div>
+                        <p className="text-md">Symbotic | Wilmington, MA</p>
+                        <ul className="list-disc ml-5 space-y-1 text-sm">
+                            <li>Working with the mobile robotic controls team to enhance testing frameworks and edge case testing coverage</li>
+                            <li>Expanded and automated behavior tree coverage reporting for two mobile robots across on-robot and GitHub CI test pipelines, including adding behavior tree logging for one platform</li>
+                        </ul>
+                    </div>
                     <div className="mb-6">
                         <div className="flex justify-between items-start">
                             <h3 className="font-bold text-lg">Machine Learning Teaching Assistant</h3>
